@@ -123,7 +123,7 @@ colours_vector <- c("red", "orange", "purple", "yellow", "pink", "blue")
 colours_vector[ifelse(nchar(colours_vector)==4,TRUE,FALSE)]
 
 #Writing a function #Exercise 8
-hypot <- function (a,b) {
+hypot <- function (a=1,b=1) {
   output <- sqrt (a^2 + b^2)
   return(output)
 }
